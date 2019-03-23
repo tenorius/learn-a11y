@@ -1,6 +1,6 @@
 body,
 main {
-  padding-top: 70px;
+  padding-top: 130px;
   font-size: 16px;
 }
 
@@ -24,4 +24,18 @@ main {
 .colors-three h2 {
   background: green;
   color: red;
+}
+
+#skip-link{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  padding: 8px;
+  background: red;
+  color: white;
+  z-index: 9999;
+}
+
+#skip-link:focus{
+  top: 0;
 }
